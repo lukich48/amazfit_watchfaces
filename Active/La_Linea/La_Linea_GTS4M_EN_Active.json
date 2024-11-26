@@ -1,0 +1,559 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "Active",
+    "WatchFaceId": 5739148,
+    "Preview": "0002"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 446,
+        "src": "0001",
+        "alpha": 255
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementAnimation",
+        "visible": true,
+        "Frame_Animation_List": {
+          "position": 1,
+          "selected_animation": 0,
+          "visible": true,
+          "Frame_Animation": [
+            {
+              "visible": true,
+              "show_level": "ONLY_NORMAL",
+              "x": 0,
+              "y": 267,
+              "anim_src": "anim_0",
+              "anim_prefix": "anim",
+              "anim_fps": 15,
+              "anim_repeat": true,
+              "preview_frame": 1,
+              "anim_size": 6
+            }
+          ]
+        }
+      },
+      {
+        "elementName": "ElementStatuses",
+        "visible": true,
+        "Alarm": {
+          "position": 4,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 10,
+          "y": 211,
+          "src": "0049",
+          "alpha": 255,
+          "type": "Alarm"
+        },
+        "Bluetooth": {
+          "position": 3,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 26,
+          "y": 39,
+          "src": "0048",
+          "alpha": 255,
+          "type": "Bluetooth"
+        },
+        "DND": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 59,
+          "y": 211,
+          "src": "0050",
+          "alpha": 255,
+          "type": "DND"
+        },
+        "Lock": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "x": 106,
+          "y": 211,
+          "src": "0051",
+          "alpha": 255,
+          "type": "Lock"
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 222,
+          "imageY": 277,
+          "space": 6,
+          "zero": false,
+          "img_First": "0036",
+          "unit": "0046",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementHeart",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 276,
+          "imageY": 385,
+          "space": 6,
+          "zero": false,
+          "img_First": "0036",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementSteps",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "RIGHT",
+          "show_level": "",
+          "imageX": 216,
+          "imageY": 335,
+          "space": 6,
+          "zero": false,
+          "img_First": "0036",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255
+        }
+      },
+      {
+        "elementName": "ElementWeather_v2",
+        "visible": true,
+        "Group_Current": {
+          "position": 1,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "RIGHT",
+            "show_level": "",
+            "imageX": 215,
+            "imageY": 216,
+            "space": 6,
+            "zero": false,
+            "img_First": "0036",
+            "unit": "0004",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "negative_image": "0003",
+            "invalid_image": "0047",
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Images": {
+          "position": 2,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "",
+          "X": 322,
+          "Y": 201,
+          "img_First": "0052",
+          "image_length": 29,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "DateYear",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 214,
+          "imageY": 39,
+          "space": 3,
+          "zero": true,
+          "img_First": "0036",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "YEAR"
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 142,
+          "imageY": 39,
+          "space": 3,
+          "zero": true,
+          "img_First": "0036",
+          "unit": "0005",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONLY_NORMAL",
+          "imageX": 68,
+          "imageY": 39,
+          "space": 3,
+          "zero": true,
+          "img_First": "0036",
+          "unit": "0005",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONLY_NORMAL",
+          "X": 107,
+          "Y": 3,
+          "img_First": "0029",
+          "image_length": 0,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Second": {
+          "position": 4,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 270,
+            "imageY": 167,
+            "space": 8,
+            "zero": true,
+            "img_First": "0036",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Minute": {
+          "position": 3,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 221,
+            "imageY": 82,
+            "space": 20,
+            "zero": true,
+            "img_First": "0007",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Hour": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONLY_NORMAL",
+            "imageX": 6,
+            "imageY": 82,
+            "space": 20,
+            "zero": true,
+            "img_First": "0007",
+            "unit": "0006",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "AmPm": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "am_x": 60,
+          "am_y": 167,
+          "am_img": "0017",
+          "pm_x": 60,
+          "pm_y": 167,
+          "pm_img": "0018"
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {
+    "Elements": [
+      {
+        "elementName": "DateYear",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONAL_AOD",
+          "imageX": 214,
+          "imageY": 39,
+          "space": 3,
+          "zero": true,
+          "img_First": "0036",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "YEAR"
+        }
+      },
+      {
+        "elementName": "DateMonth",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONAL_AOD",
+          "imageX": 142,
+          "imageY": 39,
+          "space": 3,
+          "zero": true,
+          "img_First": "0036",
+          "unit": "0005",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "MONTH"
+        }
+      },
+      {
+        "elementName": "DateDay",
+        "visible": true,
+        "Number": {
+          "position": 1,
+          "visible": true,
+          "align": "CENTER_H",
+          "show_level": "ONAL_AOD",
+          "imageX": 68,
+          "imageY": 39,
+          "space": 3,
+          "zero": true,
+          "img_First": "0036",
+          "unit": "0005",
+          "iconPosX": 0,
+          "iconPosY": 0,
+          "angle": 0,
+          "follow": false,
+          "unit_in_alignment": false,
+          "alpha": 255,
+          "icon_alpha": 255,
+          "type": "DAY"
+        }
+      },
+      {
+        "elementName": "DateWeek",
+        "visible": true,
+        "Images": {
+          "position": 1,
+          "visible": true,
+          "shortcut": false,
+          "show_level": "ONAL_AOD",
+          "X": 107,
+          "Y": 3,
+          "img_First": "0029",
+          "image_length": 0,
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "DigitalTime_v2",
+        "visible": true,
+        "Group_Minute": {
+          "position": 3,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONAL_AOD",
+            "imageX": 221,
+            "imageY": 82,
+            "space": 20,
+            "zero": true,
+            "img_First": "0007",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "Group_Hour": {
+          "position": 2,
+          "Number": {
+            "position": -1,
+            "visible": true,
+            "align": "CENTER_H",
+            "show_level": "ONAL_AOD",
+            "imageX": 6,
+            "imageY": 82,
+            "space": 20,
+            "zero": true,
+            "img_First": "0007",
+            "unit": "0006",
+            "iconPosX": 0,
+            "iconPosY": 0,
+            "angle": 0,
+            "follow": false,
+            "unit_in_alignment": false,
+            "alpha": 255,
+            "icon_alpha": 255
+          }
+        },
+        "AmPm": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONAL_AOD",
+          "am_x": 60,
+          "am_y": 167,
+          "am_img": "0017",
+          "pm_x": 60,
+          "pm_y": 167,
+          "pm_img": "0018"
+        }
+      }
+    ]
+  },
+  "Shortcuts": {
+    "elementName": "ElementShortcuts",
+    "visible": true,
+    "Step": {
+      "position": 4,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 0,
+      "y": 315,
+      "w": 390,
+      "h": 50,
+      "src": "0025",
+      "type": "STEP"
+    },
+    "Heart": {
+      "position": 3,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 0,
+      "y": 371,
+      "w": 390,
+      "h": 50,
+      "src": "0025",
+      "type": "HEART"
+    },
+    "Weather": {
+      "position": 2,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 214,
+      "y": 194,
+      "w": 176,
+      "h": 72,
+      "src": "0025",
+      "type": "WEATHER_CURRENT"
+    },
+    "Alarm": {
+      "position": 1,
+      "visible": true,
+      "show_level": "ONLY_NORMAL",
+      "x": 95,
+      "y": 68,
+      "w": 200,
+      "h": 100,
+      "src": "0025",
+      "type": "ALARM_CLOCK"
+    }
+  }
+}
